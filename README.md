@@ -9,7 +9,7 @@ This project uses the [Logainm.ie](https://www.logainm.ie/en/) dataset, on the t
 
 ## The repository
 The repository is organized as follows:
- - Files: the files of the project
+ - OtherFiles: the files of the project
    - Analysis: the Python scripts and the results of the analysis conducted on 3 of the 10 queries
    - Queries: the text of the queries run in MongoDB
    - Results: the complete results of the queries in JSON format
