@@ -1,1 +1,1 @@
-# SMBUD_Project_2024-2025
+# SMBUD Project A.A. 2024-2025
