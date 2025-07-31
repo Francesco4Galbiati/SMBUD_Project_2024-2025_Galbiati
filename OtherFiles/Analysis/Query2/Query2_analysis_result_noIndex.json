@@ -1,0 +1,56 @@
+{
+    "executionSuccess": true,
+    "nReturned": 53,
+    "executionTimeMillis": 855,
+    "totalKeysExamined": 0,
+    "totalDocsExamined": 126752,
+    "executionStages": {
+        "isCached": false,
+        "stage": "PROJECTION_DEFAULT",
+        "nReturned": 53,
+        "executionTimeMillisEstimate": 846,
+        "works": 126753,
+        "advanced": 53,
+        "needTime": 126699,
+        "needYield": 0,
+        "saveState": 52,
+        "restoreState": 52,
+        "isEOF": 1,
+        "transformBy": {
+            "_id": 0,
+            "id": 1,
+            "placenames.language": 1,
+            "placenames.wording": 1,
+            "categories.nameEN": 1
+        },
+        "inputStage": {
+            "stage": "COLLSCAN",
+            "filter": {
+                "$and": [
+                    {
+                        "glossary.headword": {
+                            "$eq": "loch"
+                        }
+                    },
+                    {
+                        "includes.id": {
+                            "$eq": "L"
+                        }
+                    }
+                ]
+            },
+            "nReturned": 53,
+            "executionTimeMillisEstimate": 835,
+            "works": 126753,
+            "advanced": 53,
+            "needTime": 126699,
+            "needYield": 0,
+            "saveState": 52,
+            "restoreState": 52,
+            "isEOF": 1,
+            "direction": "forward",
+            "docsExamined": 126752
+        }
+    },
+    "allPlansExecution": []
+}

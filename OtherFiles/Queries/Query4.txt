@@ -1,0 +1,108 @@
+db.logainm.aggregate([
+	{
+		$unwind: "$glossary"
+	},
+	{
+		$match: {
+			"glossary.headword": {
+				$in: ["muc", "iolar", "madra", "sionnach", "mac tíre"]
+			}
+		}
+	},
+	{
+		$unwind: "$categories"
+	},
+	{
+		$group: {
+			_id: {
+				category_id: "$categories.id",
+				category_name: "$categories.nameEN",
+				glossaryGA: "$glossary.headword",
+				glossaryEN: "$glossary.translation"
+			},
+			count: {
+				$sum: 1
+			}
+		}
+	},
+	{
+		$group: {
+			_id: {
+				animalGA: "$_id.glossaryGA",
+				animalEN: "$_id.glossaryEN"
+			},
+			categories: {
+				$push: {
+					category: "$_id.category_name",
+					count: "$count"
+				}
+			}
+		}
+	},
+	{
+		$unionWith: {
+			coll: "logainm",
+			pipeline: [
+				{
+					$unwind: "$glossary"
+				},
+				{
+					$match: {
+						$or: [
+							{
+								"glossary.headword": "gamhain"
+							},
+							{
+								"glossary.headword": "lao"
+							}
+						]
+					}
+				},
+				{
+					$unwind: "$categories"
+				},
+				{
+					$group: {
+						_id: {
+							category_id: "$categories.id",
+							category_name: "$categories.nameEN",
+							glossaryGA: "gamhain/lao",
+							glossaryEN: "calf"
+						},
+						count: {
+							$sum: 1
+						}
+					}
+				},
+				{
+					$group: {
+						_id: {
+							animalGA: "$_id.glossaryGA",
+							animalEN: "$_id.glossaryEN"
+						},
+						categories: {
+							$push: {
+								category: "$_id.category_name",
+								count: "$count"
+							}
+						}
+					}
+				}
+			]
+		}
+	},
+	{
+		$project: {
+			_id: 0,
+			animal: "$_id",
+			categories: {
+				$sortArray: {
+					input: "$categories",
+					sortBy: {
+						count: -1
+					}
+				}
+			}
+		}
+	}
+])

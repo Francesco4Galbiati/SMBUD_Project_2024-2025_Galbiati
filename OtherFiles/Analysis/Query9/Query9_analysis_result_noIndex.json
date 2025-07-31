@@ -1,0 +1,206 @@
+{
+    "explainVersion": "1",
+    "stages": [
+        {
+            "$cursor": {
+                "queryPlanner": {
+                    "namespace": "SMBUDProject24.logainm",
+                    "parsedQuery": {
+                        "$and": [
+                            {
+                                "categories.id": {
+                                    "$eq": "BF"
+                                }
+                            },
+                            {
+                                "gaeltacht.extent": {
+                                    "$eq": "all"
+                                }
+                            }
+                        ]
+                    },
+                    "indexFilterSet": false,
+                    "queryHash": "1614B689",
+                    "planCacheKey": "2C526ECD",
+                    "optimizationTimeMillis": 7,
+                    "maxIndexedOrSolutionsReached": false,
+                    "maxIndexedAndSolutionsReached": false,
+                    "maxScansToExplodeReached": false,
+                    "prunedSimilarIndexes": false,
+                    "winningPlan": {
+                        "isCached": false,
+                        "stage": "PROJECTION_SIMPLE",
+                        "transformBy": {
+                            "includedIn": 1,
+                            "_id": 0
+                        },
+                        "inputStage": {
+                            "stage": "COLLSCAN",
+                            "filter": {
+                                "$and": [
+                                    {
+                                        "categories.id": {
+                                            "$eq": "BF"
+                                        }
+                                    },
+                                    {
+                                        "gaeltacht.extent": {
+                                            "$eq": "all"
+                                        }
+                                    }
+                                ]
+                            },
+                            "direction": "forward"
+                        }
+                    },
+                    "rejectedPlans": []
+                },
+                "executionStats": {
+                    "executionSuccess": true,
+                    "nReturned": 2045,
+                    "executionTimeMillis": 509,
+                    "totalKeysExamined": 0,
+                    "totalDocsExamined": 126752,
+                    "executionStages": {
+                        "isCached": false,
+                        "stage": "PROJECTION_SIMPLE",
+                        "nReturned": 2045,
+                        "executionTimeMillisEstimate": 417,
+                        "works": 126753,
+                        "advanced": 2045,
+                        "needTime": 124707,
+                        "needYield": 0,
+                        "saveState": 34,
+                        "restoreState": 34,
+                        "isEOF": 1,
+                        "transformBy": {
+                            "includedIn": 1,
+                            "_id": 0
+                        },
+                        "inputStage": {
+                            "stage": "COLLSCAN",
+                            "filter": {
+                                "$and": [
+                                    {
+                                        "categories.id": {
+                                            "$eq": "BF"
+                                        }
+                                    },
+                                    {
+                                        "gaeltacht.extent": {
+                                            "$eq": "all"
+                                        }
+                                    }
+                                ]
+                            },
+                            "nReturned": 2045,
+                            "executionTimeMillisEstimate": 396,
+                            "works": 126753,
+                            "advanced": 2045,
+                            "needTime": 124707,
+                            "needYield": 0,
+                            "saveState": 34,
+                            "restoreState": 34,
+                            "isEOF": 1,
+                            "direction": "forward",
+                            "docsExamined": 126752
+                        }
+                    }
+                }
+            },
+            "nReturned": 2045,
+            "executionTimeMillisEstimate": 455
+        },
+        {
+            "$unwind": {
+                "path": "$includedIn"
+            },
+            "nReturned": 7088,
+            "executionTimeMillisEstimate": 476
+        },
+        {
+            "$match": {
+                "includedIn.category.id": {
+                    "$eq": "CON"
+                }
+            },
+            "nReturned": 2045,
+            "executionTimeMillisEstimate": 476
+        },
+        {
+            "$group": {
+                "_id": {
+                    "nameEN": "$includedIn.nameEN",
+                    "nameGA": "$includedIn.nameGA"
+                },
+                "count": {
+                    "$sum": {
+                        "$const": 1
+                    }
+                }
+            },
+            "maxAccumulatorMemoryUsageBytes": {
+                "count": 896
+            },
+            "totalOutputDataSizeBytes": 3467,
+            "usedDisk": false,
+            "spills": 0,
+            "spilledDataStorageSize": 0,
+            "numBytesSpilledEstimate": 0,
+            "spilledRecords": 0,
+            "nReturned": 7,
+            "executionTimeMillisEstimate": 476
+        }
+    ],
+    "serverInfo": {
+        "host": "LAPTOP-SVPGP4FI",
+        "port": 27017,
+        "version": "8.0.1",
+        "gitVersion": "fcbe67d668fff5a370e2d87b9b1f74bc11bb7b94"
+    },
+    "serverParameters": {
+        "internalQueryFacetBufferSizeBytes": 104857600,
+        "internalQueryFacetMaxOutputDocSizeBytes": 104857600,
+        "internalLookupStageIntermediateDocumentMaxSizeBytes": 104857600,
+        "internalDocumentSourceGroupMaxMemoryBytes": 104857600,
+        "internalQueryMaxBlockingSortMemoryUsageBytes": 104857600,
+        "internalQueryProhibitBlockingMergeOnMongoS": 0,
+        "internalQueryMaxAddToSetBytes": 104857600,
+        "internalDocumentSourceSetWindowFieldsMaxMemoryBytes": 104857600,
+        "internalQueryFrameworkControl": "trySbeRestricted",
+        "internalQueryPlannerIgnoreIndexWithCollationForRegex": 1
+    },
+    "command": {
+        "aggregate": "logainm",
+        "pipeline": [
+            {
+                "$match": {
+                    "categories.id": "BF",
+                    "gaeltacht.extent": "all"
+                }
+            },
+            {
+                "$unwind": "$includedIn"
+            },
+            {
+                "$match": {
+                    "includedIn.category.id": "CON"
+                }
+            },
+            {
+                "$group": {
+                    "_id": {
+                        "nameEN": "$includedIn.nameEN",
+                        "nameGA": "$includedIn.nameGA"
+                    },
+                    "count": {
+                        "$sum": 1
+                    }
+                }
+            }
+        ],
+        "cursor": {},
+        "$db": "SMBUDProject24"
+    },
+    "ok": 1.0
+}

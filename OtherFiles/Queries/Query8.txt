@@ -1,0 +1,57 @@
+db.logainm.aggregate([
+	{
+		$match: {
+			"placenames.language": "ga",
+			"categories.id": {
+				$in: ["CTH", "B"]
+			}
+		}
+	},
+	{
+		$project: {
+			_id: 0,
+			id: 1,
+			nameGA: {
+				$first: {
+					$filter: {
+  					input: "$placenames",
+  					as: "name",
+  					cond: {
+  						$eq: ["$$name.language", "ga"]
+  					}
+  				}
+				}
+			},
+			nameEN: {
+				$first: {
+					$filter: {
+  					input: "$placenames",
+  					as: "name",
+  					cond: {
+  						$eq: ["$$name.language", "en"]
+  					}
+  				}
+				}
+			}
+		}
+	},
+	{
+		$project: {
+			_id: 0,
+			id: 1,
+			nameGA: "$nameGA.wording",
+			nameEN: "$nameEN.wording",
+			length: {
+				$strLenCP: "$nameGA.wording"
+			}
+		}
+	},
+	{
+		$sort: {
+			length: -1
+		}
+	},
+	{
+		$limit: 10
+	}
+])

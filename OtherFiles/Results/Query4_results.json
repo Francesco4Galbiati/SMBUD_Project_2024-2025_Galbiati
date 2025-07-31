@@ -1,0 +1,358 @@
+[
+    {
+        "animal": {
+            "animalGA": "sionnach",
+            "animalEN": "fox"
+        },
+        "categories": [
+            {
+                "category": "townland",
+                "count": 60
+            },
+            {
+                "category": "island or archipelago",
+                "count": 5
+            },
+            {
+                "category": "electoral division",
+                "count": 5
+            },
+            {
+                "category": "minor feature",
+                "count": 4
+            },
+            {
+                "category": "hill or hills",
+                "count": 3
+            },
+            {
+                "category": "population centre",
+                "count": 3
+            },
+            {
+                "category": "lake or lakes",
+                "count": 2
+            },
+            {
+                "category": "town",
+                "count": 1
+            },
+            {
+                "category": "stream",
+                "count": 1
+            },
+            {
+                "category": "rock or rocks",
+                "count": 1
+            },
+            {
+                "category": "ford",
+                "count": 1
+            },
+            {
+                "category": "waterfall",
+                "count": 1
+            }
+        ]
+    },
+    {
+        "animal": {
+            "animalGA": "mac tíre",
+            "animalEN": "Wolf"
+        },
+        "categories": [
+            {
+                "category": "townland",
+                "count": 27
+            }
+        ]
+    },
+    {
+        "animal": {
+            "animalGA": "iolar",
+            "animalEN": "eagle"
+        },
+        "categories": [
+            {
+                "category": "townland",
+                "count": 19
+            },
+            {
+                "category": "minor feature",
+                "count": 11
+            },
+            {
+                "category": "lake or lakes",
+                "count": 7
+            },
+            {
+                "category": "hill or hills",
+                "count": 6
+            },
+            {
+                "category": "rock or rocks",
+                "count": 6
+            },
+            {
+                "category": "mountain or mountain range",
+                "count": 5
+            },
+            {
+                "category": "promontory",
+                "count": 2
+            },
+            {
+                "category": "cliff or cliffs",
+                "count": 2
+            },
+            {
+                "category": "electoral division",
+                "count": 2
+            },
+            {
+                "category": "cairn",
+                "count": 1
+            },
+            {
+                "category": "river",
+                "count": 1
+            },
+            {
+                "category": "island or archipelago",
+                "count": 1
+            },
+            {
+                "category": "creek",
+                "count": 1
+            },
+            {
+                "category": "fissure",
+                "count": 1
+            }
+        ]
+    },
+    {
+        "animal": {
+            "animalGA": "muc",
+            "animalEN": "pig"
+        },
+        "categories": [
+            {
+                "category": "townland",
+                "count": 181
+            },
+            {
+                "category": "lake or lakes",
+                "count": 13
+            },
+            {
+                "category": "street",
+                "count": 13
+            },
+            {
+                "category": "island or archipelago",
+                "count": 13
+            },
+            {
+                "category": "minor feature",
+                "count": 9
+            },
+            {
+                "category": "electoral division",
+                "count": 9
+            },
+            {
+                "category": "population centre",
+                "count": 8
+            },
+            {
+                "category": "mountain or mountain range",
+                "count": 6
+            },
+            {
+                "category": "rock or rocks",
+                "count": 5
+            },
+            {
+                "category": "creek",
+                "count": 5
+            },
+            {
+                "category": "promontory",
+                "count": 3
+            },
+            {
+                "category": "river",
+                "count": 3
+            },
+            {
+                "category": "feature",
+                "count": 3
+            },
+            {
+                "category": "civil parish",
+                "count": 3
+            },
+            {
+                "category": "hill or hills",
+                "count": 2
+            },
+            {
+                "category": "pass",
+                "count": 2
+            },
+            {
+                "category": "castle",
+                "count": 1
+            },
+            {
+                "category": "well",
+                "count": 1
+            },
+            {
+                "category": "sub-townland",
+                "count": 1
+            },
+            {
+                "category": "town",
+                "count": 1
+            },
+            {
+                "category": "road",
+                "count": 1
+            },
+            {
+                "category": "point",
+                "count": 1
+            },
+            {
+                "category": "locality",
+                "count": 1
+            }
+        ]
+    },
+    {
+        "animal": {
+            "animalGA": "madra",
+            "animalEN": "dog"
+        },
+        "categories": [
+            {
+                "category": "townland",
+                "count": 26
+            },
+            {
+                "category": "minor feature",
+                "count": 6
+            },
+            {
+                "category": "creek",
+                "count": 4
+            },
+            {
+                "category": "island or archipelago",
+                "count": 4
+            },
+            {
+                "category": "lake or lakes",
+                "count": 3
+            },
+            {
+                "category": "rock or rocks",
+                "count": 2
+            },
+            {
+                "category": "electoral division",
+                "count": 2
+            },
+            {
+                "category": "footpath",
+                "count": 1
+            },
+            {
+                "category": "wood",
+                "count": 1
+            },
+            {
+                "category": "river",
+                "count": 1
+            },
+            {
+                "category": "pass",
+                "count": 1
+            },
+            {
+                "category": "patch of ground",
+                "count": 1
+            }
+        ]
+    },
+    {
+        "animal": {
+            "animalGA": "gamhain/lao",
+            "animalEN": "calf"
+        },
+        "categories": [
+            {
+                "category": "townland",
+                "count": 86
+            },
+            {
+                "category": "island or archipelago",
+                "count": 8
+            },
+            {
+                "category": "electoral division",
+                "count": 7
+            },
+            {
+                "category": "minor feature",
+                "count": 6
+            },
+            {
+                "category": "population centre",
+                "count": 5
+            },
+            {
+                "category": "civil parish",
+                "count": 4
+            },
+            {
+                "category": "lake or lakes",
+                "count": 4
+            },
+            {
+                "category": "hill or hills",
+                "count": 3
+            },
+            {
+                "category": "creek",
+                "count": 3
+            },
+            {
+                "category": "town",
+                "count": 2
+            },
+            {
+                "category": "estuary",
+                "count": 1
+            },
+            {
+                "category": "fissure",
+                "count": 1
+            },
+            {
+                "category": "wood",
+                "count": 1
+            },
+            {
+                "category": "rock or rocks",
+                "count": 1
+            },
+            {
+                "category": "valley",
+                "count": 1
+            }
+        ]
+    }
+]

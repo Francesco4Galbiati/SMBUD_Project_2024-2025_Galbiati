@@ -1,0 +1,106 @@
+db.logainm.aggregate([
+	{
+		$facet: {
+			"northmostPoint": [
+				{
+					$match: {
+						"gridReferences.square": {
+							$in: ["A", "B", "C", "D", "E"]
+						}
+					}
+				},
+				{
+					$sort: {
+						"gridReferences.northing": -1
+					}
+				},
+				{
+					$limit: 1
+				},
+				{
+					$project: {
+						_id: 0,
+						id: 1,
+						name: "$placenames.wording",
+						coordinates: "$gridReferences"
+					}
+				}
+			],
+			"westmostPoint": [
+				{
+					$match: {
+						"gridReferences.square": {
+							$in: ["A", "F", "L", "Q", "V"]
+						}
+					}
+				},
+				{
+					$sort: {
+						"gridReferences.easting": 1
+					}
+				},
+				{
+					$limit: 1
+				},
+				{
+					$project: {
+						_id: 0,
+						id: 1,
+						name: "$placenames.wording",
+						coordinates: "$gridReferences"
+					}
+				}
+			],
+			"southmostPoint": [
+				{
+					$match: {
+						"gridReferences.square": {
+							$in: ["V", "W", "X", "Y", "Z"]
+						}
+					}
+				},
+				{
+					$sort: {
+						"gridReferences.northing": 1
+					}
+				},
+				{
+					$limit: 1
+				},
+				{
+					$project: {
+						_id: 0,
+						id: 1,
+						name: "$placenames.wording",
+						coordinates: "$gridReferences"
+					}
+				}
+			],
+			"eastmostPoint": [
+				{
+					$match: {
+						"gridReferences.square": {
+							$in: ["D", "J", "O", "T", "Y"]
+						}
+					}
+				},
+				{
+					$sort: {
+						"gridReferences.easting": -1
+					}
+				},
+				{
+					$limit: 1
+				},
+				{
+					$project: {
+						_id: 0,
+						id: 1,
+						name: "$placenames.wording",
+						coordinates: "$gridReferences"
+					}
+				}
+			]
+		}
+	}
+])

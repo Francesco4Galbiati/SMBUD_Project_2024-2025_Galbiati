@@ -1,0 +1,343 @@
+[
+    {
+        "county": {
+            "nameGA": "Aontroim",
+            "nameEN": "Antrim"
+        },
+        "city_town": {
+            "nameGA": "Béal Feirste",
+            "nameEN": "Belfast"
+        },
+        "count": 4
+    },
+    {
+        "county": {
+            "nameGA": "Ard Mhacha",
+            "nameEN": "Armagh"
+        },
+        "city_town": {
+            "nameGA": "Ard Mhacha",
+            "nameEN": "Armagh"
+        },
+        "count": 4
+    },
+    {
+        "county": {
+            "nameGA": "Ceatharlach",
+            "nameEN": "Carlow"
+        },
+        "city_town": {
+            "nameGA": "Ceatharlach",
+            "nameEN": "Carlow"
+        },
+        "count": 278
+    },
+    {
+        "county": {
+            "nameGA": "An Cabhán",
+            "nameEN": "Cavan"
+        },
+        "city_town": {
+            "nameGA": "An Cabhán",
+            "nameEN": "Cavan"
+        },
+        "count": 129
+    },
+    {
+        "county": {
+            "nameGA": "An Clár",
+            "nameEN": "Clare"
+        },
+        "city_town": {
+            "nameGA": "Inis",
+            "nameEN": "Ennis"
+        },
+        "count": 318
+    },
+    {
+        "county": {
+            "nameGA": "Corcaigh",
+            "nameEN": "Cork"
+        },
+        "city_town": {
+            "nameGA": "Corcaigh",
+            "nameEN": "Cork"
+        },
+        "count": 3170
+    },
+    {
+        "county": {
+            "nameGA": "Doire",
+            "nameEN": "Derry"
+        },
+        "city_town": {
+            "nameGA": "Doire",
+            "nameEN": "Derry"
+        },
+        "count": 4
+    },
+    {
+        "county": {
+            "nameGA": "Dún na nGall",
+            "nameEN": "Donegal"
+        },
+        "city_town": {
+            "nameGA": "Leitir Ceanainn",
+            "nameEN": "Letterkenny"
+        },
+        "count": 183
+    },
+    {
+        "county": {
+            "nameGA": "Baile Átha Cliath",
+            "nameEN": "Dublin"
+        },
+        "city_town": {
+            "nameGA": "Baile Átha Cliath",
+            "nameEN": "Dublin"
+        },
+        "count": 4965
+    },
+    {
+        "county": {
+            "nameGA": "Fear Manach",
+            "nameEN": "Fermanagh"
+        },
+        "city_town": {
+            "nameGA": "Inis Ceithleann",
+            "nameEN": "Enniskillen"
+        },
+        "count": 1
+    },
+    {
+        "county": {
+            "nameGA": "Gaillimh",
+            "nameEN": "Galway"
+        },
+        "city_town": {
+            "nameGA": "Gaillimh",
+            "nameEN": "Galway"
+        },
+        "count": 1007
+    },
+    {
+        "county": {
+            "nameGA": "Ciarraí",
+            "nameEN": "Kerry"
+        },
+        "city_town": {
+            "nameGA": "Trá Lí",
+            "nameEN": "Tralee"
+        },
+        "count": 336
+    },
+    {
+        "county": {
+            "nameGA": "Cill Dara",
+            "nameEN": "Kildare"
+        },
+        "city_town": {
+            "nameGA": "An Nás",
+            "nameEN": "Naas"
+        },
+        "count": 209
+    },
+    {
+        "county": {
+            "nameGA": "Cill Chainnigh",
+            "nameEN": "Kilkenny"
+        },
+        "city_town": {
+            "nameGA": "Cill Chainnigh",
+            "nameEN": "Kilkenny"
+        },
+        "count": 680
+    },
+    {
+        "county": {
+            "nameGA": "Laois",
+            "nameEN": "Laois"
+        },
+        "city_town": {
+            "nameGA": "Port Laoise",
+            "nameEN": "Port Laoise"
+        },
+        "count": 195
+    },
+    {
+        "county": {
+            "nameGA": "Liatroim",
+            "nameEN": "Leitrim"
+        },
+        "city_town": {
+            "nameGA": "Cora Droma Rúisc",
+            "nameEN": "Carrick-on-Shannon"
+        },
+        "count": 59
+    },
+    {
+        "county": {
+            "nameGA": "Luimneach",
+            "nameEN": "Limerick"
+        },
+        "city_town": {
+            "nameGA": "Luimneach",
+            "nameEN": "Limerick"
+        },
+        "count": 1304
+    },
+    {
+        "county": {
+            "nameGA": "An Longfort",
+            "nameEN": "Longford"
+        },
+        "city_town": {
+            "nameGA": "An Longfort",
+            "nameEN": "Longford"
+        },
+        "count": 134
+    },
+    {
+        "county": {
+            "nameGA": "Lú",
+            "nameEN": "Louth"
+        },
+        "city_town": {
+            "nameGA": "Droichead Átha",
+            "nameEN": "Drogheda"
+        },
+        "count": 451
+    },
+    {
+        "county": {
+            "nameGA": "Maigh Eo",
+            "nameEN": "Mayo"
+        },
+        "city_town": {
+            "nameGA": "Caisleán an Bharraigh",
+            "nameEN": "Castlebar"
+        },
+        "count": 140
+    },
+    {
+        "county": {
+            "nameGA": "An Mhí",
+            "nameEN": "Meath"
+        },
+        "city_town": {
+            "nameGA": "An Uaimh",
+            "nameEN": "Navan"
+        },
+        "count": 314
+    },
+    {
+        "county": {
+            "nameGA": "Muineachán",
+            "nameEN": "Monaghan"
+        },
+        "city_town": {
+            "nameGA": "Muineachán",
+            "nameEN": "Monaghan"
+        },
+        "count": 97
+    },
+    {
+        "county": {
+            "nameGA": "Uíbh Fhailí",
+            "nameEN": "Offaly"
+        },
+        "city_town": {
+            "nameGA": "Tulach Mhór",
+            "nameEN": "Tullamore"
+        },
+        "count": 148
+    },
+    {
+        "county": {
+            "nameGA": "Ros Comáin",
+            "nameEN": "Roscommon"
+        },
+        "city_town": {
+            "nameGA": "Ros Comáin",
+            "nameEN": "Roscommon"
+        },
+        "count": 79
+    },
+    {
+        "county": {
+            "nameGA": "Sligeach",
+            "nameEN": "Sligo"
+        },
+        "city_town": {
+            "nameGA": "Sligeach",
+            "nameEN": "Sligo"
+        },
+        "count": 639
+    },
+    {
+        "county": {
+            "nameGA": "Tiobraid Árann",
+            "nameEN": "Tipperary"
+        },
+        "city_town": {
+            "nameGA": "Cluain Meala",
+            "nameEN": "Clonmel"
+        },
+        "count": 261
+    },
+    {
+        "county": {
+            "nameGA": "Tír Eoghain",
+            "nameEN": "Tyrone"
+        },
+        "city_town": {
+            "nameGA": "Dún Geanainn",
+            "nameEN": "Dungannon"
+        },
+        "count": 1
+    },
+    {
+        "county": {
+            "nameGA": "Port Láirge",
+            "nameEN": "Waterford"
+        },
+        "city_town": {
+            "nameGA": "Port Láirge",
+            "nameEN": "Waterford"
+        },
+        "count": 883
+    },
+    {
+        "county": {
+            "nameGA": "An Iarmhí",
+            "nameEN": "Westmeath"
+        },
+        "city_town": {
+            "nameGA": "Baile Átha Luain",
+            "nameEN": "Athlone"
+        },
+        "count": 265
+    },
+    {
+        "county": {
+            "nameGA": "Loch Garman",
+            "nameEN": "Wexford"
+        },
+        "city_town": {
+            "nameGA": "Loch Garman",
+            "nameEN": "Wexford"
+        },
+        "count": 280
+    },
+    {
+        "county": {
+            "nameGA": "Cill Mhantáin",
+            "nameEN": "Wicklow"
+        },
+        "city_town": {
+            "nameGA": "Bré",
+            "nameEN": "Bray"
+        },
+        "count": 299
+    }
+]

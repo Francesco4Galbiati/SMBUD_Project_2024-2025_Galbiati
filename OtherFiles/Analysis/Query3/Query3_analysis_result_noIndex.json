@@ -1,0 +1,247 @@
+{
+    "explainVersion": "1",
+    "stages": [
+        {
+            "$cursor": {
+                "queryPlanner": {
+                    "namespace": "SMBUDProject24.logainm",
+                    "parsedQuery": {
+                        "placenames.wording": {
+                            "$in": [
+                                {
+                                    "$regularExpression": {
+                                        "pattern": "Phúca",
+                                        "options": ""
+                                    }
+                                },
+                                {
+                                    "$regularExpression": {
+                                        "pattern": "Púca",
+                                        "options": ""
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "indexFilterSet": false,
+                    "queryHash": "A015B605",
+                    "planCacheKey": "AA3A4AA1",
+                    "optimizationTimeMillis": 3,
+                    "maxIndexedOrSolutionsReached": false,
+                    "maxIndexedAndSolutionsReached": false,
+                    "maxScansToExplodeReached": false,
+                    "prunedSimilarIndexes": false,
+                    "winningPlan": {
+                        "isCached": false,
+                        "stage": "PROJECTION_DEFAULT",
+                        "transformBy": {
+                            "county": 1,
+                            "id": 1,
+                            "includedIn": 1,
+                            "placenames.language": 1,
+                            "placenames.wording": 1,
+                            "_id": 0
+                        },
+                        "inputStage": {
+                            "stage": "COLLSCAN",
+                            "filter": {
+                                "placenames.wording": {
+                                    "$in": [
+                                        {
+                                            "$regularExpression": {
+                                                "pattern": "Phúca",
+                                                "options": ""
+                                            }
+                                        },
+                                        {
+                                            "$regularExpression": {
+                                                "pattern": "Púca",
+                                                "options": ""
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            "direction": "forward"
+                        }
+                    },
+                    "rejectedPlans": []
+                },
+                "executionStats": {
+                    "executionSuccess": true,
+                    "nReturned": 80,
+                    "executionTimeMillis": 972,
+                    "totalKeysExamined": 0,
+                    "totalDocsExamined": 126752,
+                    "executionStages": {
+                        "isCached": false,
+                        "stage": "PROJECTION_DEFAULT",
+                        "nReturned": 80,
+                        "executionTimeMillisEstimate": 856,
+                        "works": 126753,
+                        "advanced": 80,
+                        "needTime": 126672,
+                        "needYield": 0,
+                        "saveState": 58,
+                        "restoreState": 58,
+                        "isEOF": 1,
+                        "transformBy": {
+                            "county": 1,
+                            "id": 1,
+                            "includedIn": 1,
+                            "placenames.language": 1,
+                            "placenames.wording": 1,
+                            "_id": 0
+                        },
+                        "inputStage": {
+                            "stage": "COLLSCAN",
+                            "filter": {
+                                "placenames.wording": {
+                                    "$in": [
+                                        {
+                                            "$regularExpression": {
+                                                "pattern": "Phúca",
+                                                "options": ""
+                                            }
+                                        },
+                                        {
+                                            "$regularExpression": {
+                                                "pattern": "Púca",
+                                                "options": ""
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            "nReturned": 80,
+                            "executionTimeMillisEstimate": 839,
+                            "works": 126753,
+                            "advanced": 80,
+                            "needTime": 126672,
+                            "needYield": 0,
+                            "saveState": 58,
+                            "restoreState": 58,
+                            "isEOF": 1,
+                            "direction": "forward",
+                            "docsExamined": 126752
+                        }
+                    }
+                }
+            },
+            "nReturned": 80,
+            "executionTimeMillisEstimate": 870
+        },
+        {
+            "$unwind": {
+                "path": "$includedIn"
+            },
+            "nReturned": 280,
+            "executionTimeMillisEstimate": 870
+        },
+        {
+            "$match": {
+                "includedIn.category.id": {
+                    "$eq": "CON"
+                }
+            },
+            "nReturned": 80,
+            "executionTimeMillisEstimate": 870
+        },
+        {
+            "$project": {
+                "id": true,
+                "placenames": {
+                    "language": true,
+                    "wording": true
+                },
+                "county": {
+                    "nameGA": "$includedIn.nameGA",
+                    "nameEN": "$includedIn.nameEN"
+                },
+                "_id": false
+            },
+            "nReturned": 80,
+            "executionTimeMillisEstimate": 870
+        },
+        {
+            "$sort": {
+                "sortKey": {
+                    "county.nameGA": 1
+                }
+            },
+            "totalDataSizeSortedBytesEstimate": 91902,
+            "usedDisk": false,
+            "spills": 0,
+            "spilledDataStorageSize": 0,
+            "nReturned": 80,
+            "executionTimeMillisEstimate": 916
+        }
+    ],
+    "serverInfo": {
+        "host": "LAPTOP-SVPGP4FI",
+        "port": 27017,
+        "version": "8.0.1",
+        "gitVersion": "fcbe67d668fff5a370e2d87b9b1f74bc11bb7b94"
+    },
+    "serverParameters": {
+        "internalQueryFacetBufferSizeBytes": 104857600,
+        "internalQueryFacetMaxOutputDocSizeBytes": 104857600,
+        "internalLookupStageIntermediateDocumentMaxSizeBytes": 104857600,
+        "internalDocumentSourceGroupMaxMemoryBytes": 104857600,
+        "internalQueryMaxBlockingSortMemoryUsageBytes": 104857600,
+        "internalQueryProhibitBlockingMergeOnMongoS": 0,
+        "internalQueryMaxAddToSetBytes": 104857600,
+        "internalDocumentSourceSetWindowFieldsMaxMemoryBytes": 104857600,
+        "internalQueryFrameworkControl": "trySbeRestricted",
+        "internalQueryPlannerIgnoreIndexWithCollationForRegex": 1
+    },
+    "command": {
+        "aggregate": "logainm",
+        "pipeline": [
+            {
+                "$match": {
+                    "$or": [
+                        {
+                            "placenames.wording": {
+                                "$regex": "Phúca"
+                            }
+                        },
+                        {
+                            "placenames.wording": {
+                                "$regex": "Púca"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "$unwind": "$includedIn"
+            },
+            {
+                "$match": {
+                    "includedIn.category.id": "CON"
+                }
+            },
+            {
+                "$project": {
+                    "_id": 0,
+                    "id": 1,
+                    "placenames.language": 1,
+                    "placenames.wording": 1,
+                    "county": {
+                        "nameGA": "$includedIn.nameGA",
+                        "nameEN": "$includedIn.nameEN"
+                    }
+                }
+            },
+            {
+                "$sort": {
+                    "county.nameGA": 1
+                }
+            }
+        ],
+        "cursor": {},
+        "$db": "SMBUDProject24"
+    },
+    "ok": 1.0
+}

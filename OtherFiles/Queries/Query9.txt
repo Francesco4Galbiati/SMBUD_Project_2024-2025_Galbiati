@@ -1,0 +1,34 @@
+db.logainm.aggregate([
+	{
+		$match: {
+			"categories.id": "BF",
+			"gaeltacht.extent": "all"
+		}
+	},
+	{
+		$unwind: "$includedIn"
+	},
+	{
+		$match: {
+			"includedIn.category.id": "CON"
+		}
+	},
+	{
+		$group: {
+			_id: {
+				nameEN: "$includedIn.nameEN",
+				nameGA: "$includedIn.nameGA"
+			},
+			count: {
+				$sum: 1
+			}
+		}
+	},
+	{
+		$project: {
+			_id: 0,
+			county: "$_id",
+			count: "$count"
+		}
+	}
+])

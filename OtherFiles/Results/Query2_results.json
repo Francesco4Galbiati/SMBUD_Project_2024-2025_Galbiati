@@ -1,0 +1,964 @@
+[
+    {
+        "id": 84,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Baile Locha Riach"
+            },
+            {
+                "language": "en",
+                "wording": "Loughrea"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "barony"
+            }
+        ]
+    },
+    {
+        "id": 122,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Clár Maí Locha"
+            },
+            {
+                "language": "en",
+                "wording": "Clarmallagh"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "barony"
+            }
+        ]
+    },
+    {
+        "id": 299,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Loch Inse Uí Fhloinn"
+            },
+            {
+                "language": "en",
+                "wording": "Loughinsholin"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "barony"
+            }
+        ]
+    },
+    {
+        "id": 990,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Maigh Locha"
+            },
+            {
+                "language": "en",
+                "wording": "Moylough"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "civil parish"
+            }
+        ]
+    },
+    {
+        "id": 1044,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Baile Locha Riach"
+            },
+            {
+                "language": "en",
+                "wording": "Loughrea"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "civil parish"
+            }
+        ]
+    },
+    {
+        "id": 1895,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Loch Breacáin"
+            },
+            {
+                "language": "en",
+                "wording": "Loughbrackan"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "civil parish"
+            }
+        ]
+    },
+    {
+        "id": 1902,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Maigh Locha"
+            },
+            {
+                "language": "en",
+                "wording": "Moylagh"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "civil parish"
+            }
+        ]
+    },
+    {
+        "id": 2061,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Cluain Fionnlocha"
+            },
+            {
+                "language": "en",
+                "wording": "Cloonfinlough"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "civil parish"
+            }
+        ]
+    },
+    {
+        "id": 5046,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Loch Dúlaigh"
+            },
+            {
+                "language": "en",
+                "wording": "Loughdooly"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "townland"
+            }
+        ]
+    },
+    {
+        "id": 5931,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "An Seandaingean"
+            },
+            {
+                "language": "en",
+                "wording": "Shandangan"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "townland"
+            }
+        ]
+    },
+    {
+        "id": 6336,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Loch an Bhúrcaigh"
+            },
+            {
+                "language": "en",
+                "wording": "Loughburke"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "townland"
+            }
+        ]
+    },
+    {
+        "id": 7114,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Cnoc an Locha"
+            },
+            {
+                "language": "en",
+                "wording": "Knockalough"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "townland"
+            }
+        ]
+    },
+    {
+        "id": 7910,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Cill Ghuaire"
+            },
+            {
+                "language": "en",
+                "wording": "Kilgory"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "townland"
+            }
+        ]
+    },
+    {
+        "id": 14064,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Loch Moilt"
+            },
+            {
+                "language": "en",
+                "wording": "Loughmuilt"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "townland"
+            }
+        ]
+    },
+    {
+        "id": 14517,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Loch an Iúir"
+            },
+            {
+                "language": "en",
+                "wording": "Loughanure"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "townland"
+            }
+        ]
+    },
+    {
+        "id": 14572,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Loch Achair"
+            },
+            {
+                "language": "en",
+                "wording": "Loughagher"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "townland"
+            }
+        ]
+    },
+    {
+        "id": 14637,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Loch na mBradán"
+            },
+            {
+                "language": "en",
+                "wording": "Loughnambraddan"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "townland"
+            }
+        ]
+    },
+    {
+        "id": 14704,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Loch Eirg"
+            },
+            {
+                "language": "en",
+                "wording": "Lougherrig"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "townland"
+            }
+        ]
+    },
+    {
+        "id": 14705,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Loch Muc"
+            },
+            {
+                "language": "en",
+                "wording": "Loughmuck"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "townland"
+            }
+        ]
+    },
+    {
+        "id": 14721,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Droim an Locha"
+            },
+            {
+                "language": "en",
+                "wording": "Drumnalough"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "townland"
+            }
+        ]
+    },
+    {
+        "id": 14779,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Taobh an Locha"
+            },
+            {
+                "language": "en",
+                "wording": "Tievelough"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "townland"
+            }
+        ]
+    },
+    {
+        "id": 14789,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Loch na Luchramán"
+            },
+            {
+                "language": "en",
+                "wording": "Loughnalughraman"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "townland"
+            }
+        ]
+    },
+    {
+        "id": 14834,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Loch Dhoire Thoirc"
+            },
+            {
+                "language": "en",
+                "wording": "Lougheraherk"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "townland"
+            }
+        ]
+    },
+    {
+        "id": 14947,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Loch Sálta"
+            },
+            {
+                "language": "en",
+                "wording": "Loughsalt"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "townland"
+            }
+        ]
+    },
+    {
+        "id": 15796,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Cionn an Locha"
+            },
+            {
+                "language": "en",
+                "wording": "Kinnalough"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "townland"
+            }
+        ]
+    },
+    {
+        "id": 18317,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Loch Conaortha"
+            },
+            {
+                "language": "en",
+                "wording": "Loughaconeera"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "townland"
+            }
+        ]
+    },
+    {
+        "id": 18318,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Loch an Bhuí"
+            },
+            {
+                "language": "en",
+                "wording": "Loughawee"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "townland"
+            }
+        ]
+    },
+    {
+        "id": 18836,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Cnoc an Locha"
+            },
+            {
+                "language": "en",
+                "wording": "Knockalough"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "townland"
+            }
+        ]
+    },
+    {
+        "id": 19039,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Corr an Locha"
+            },
+            {
+                "language": "en",
+                "wording": "Corralough"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "townland"
+            }
+        ]
+    },
+    {
+        "id": 20689,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Baile Dhúlocha"
+            },
+            {
+                "language": "en",
+                "wording": "Ballydoolough"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "townland"
+            }
+        ]
+    },
+    {
+        "id": 22468,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Loch an Dúin"
+            },
+            {
+                "language": "en",
+                "wording": "Loughadoon"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "townland"
+            }
+        ]
+    },
+    {
+        "id": 22544,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Gleann Locha Theas"
+            },
+            {
+                "language": "en",
+                "wording": "Glanlough South"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "townland"
+            }
+        ]
+    },
+    {
+        "id": 22938,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Inse an Locha"
+            },
+            {
+                "language": "en",
+                "wording": "Inchinlough"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "townland"
+            }
+        ]
+    },
+    {
+        "id": 23391,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Drom idir Dhá Loch"
+            },
+            {
+                "language": "en",
+                "wording": "Dromdiralough"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "townland"
+            }
+        ]
+    },
+    {
+        "id": 31604,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Loch an Eanaigh"
+            },
+            {
+                "language": "en",
+                "wording": "Loughananna"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "townland"
+            }
+        ]
+    },
+    {
+        "id": 33316,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Doire Locha Banbh"
+            },
+            {
+                "language": "en",
+                "wording": "Derryloughbannow"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "townland"
+            }
+        ]
+    },
+    {
+        "id": 35376,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Loch na hOilí"
+            },
+            {
+                "language": "en",
+                "wording": "Loughnahelly"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "townland"
+            }
+        ]
+    },
+    {
+        "id": 36969,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Tamhnaigh Fhionnlocha"
+            },
+            {
+                "language": "en",
+                "wording": "Tawnyinlough"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "townland"
+            }
+        ]
+    },
+    {
+        "id": 37211,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Loch na Muice"
+            },
+            {
+                "language": "en",
+                "wording": "Loughnamucka"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "townland"
+            }
+        ]
+    },
+    {
+        "id": 37239,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Baile an Locha"
+            },
+            {
+                "language": "en",
+                "wording": "Ballinlough"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "townland"
+            }
+        ]
+    },
+    {
+        "id": 37639,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Loch Breacáin"
+            },
+            {
+                "language": "en",
+                "wording": "Loughbrackan"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "townland"
+            }
+        ]
+    },
+    {
+        "id": 40278,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Loch Uaithne"
+            },
+            {
+                "language": "en",
+                "wording": "Loughoony"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "townland"
+            }
+        ]
+    },
+    {
+        "id": 41213,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Cluain Fionnlocha"
+            },
+            {
+                "language": "en",
+                "wording": "Clonfinlough"
+            },
+            {
+                "language": "en",
+                "wording": "Clonfanlough"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "townland"
+            }
+        ]
+    },
+    {
+        "id": 43825,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Cluain Fionnlocha"
+            },
+            {
+                "language": "en",
+                "wording": "Cloonfinlough"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "townland"
+            }
+        ]
+    },
+    {
+        "id": 44595,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Coillte Locha"
+            },
+            {
+                "language": "en",
+                "wording": "Kiltylough"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "townland"
+            }
+        ]
+    },
+    {
+        "id": 50400,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Baile an Locha Beag"
+            },
+            {
+                "language": "en",
+                "wording": "Ballyloughbeg"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "townland"
+            }
+        ]
+    },
+    {
+        "id": 100019,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Loch Garman"
+            },
+            {
+                "language": "ga",
+                "wording": "An Contae Riabhach"
+            },
+            {
+                "language": "en",
+                "wording": "Wexford"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "county"
+            }
+        ]
+    },
+    {
+        "id": 1372513,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Loch Iascaigh"
+            },
+            {
+                "language": "en",
+                "wording": "Lough Eask"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "electoral division"
+            }
+        ]
+    },
+    {
+        "id": 1373243,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Loch Broin"
+            },
+            {
+                "language": "en",
+                "wording": "Loughbrin"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "electoral division"
+            }
+        ]
+    },
+    {
+        "id": 1373605,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Loch Uí Dhúgáin"
+            },
+            {
+                "language": "en",
+                "wording": "Yugan"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "electoral division"
+            }
+        ]
+    },
+    {
+        "id": 1374143,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Maigh Locha"
+            },
+            {
+                "language": "en",
+                "wording": "Moylagh"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "electoral division"
+            }
+        ]
+    },
+    {
+        "id": 1374192,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Loch Feá"
+            },
+            {
+                "language": "en",
+                "wording": "Loughfea"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "electoral division"
+            }
+        ]
+    },
+    {
+        "id": 1375226,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Loch an Úcaire"
+            },
+            {
+                "language": "en",
+                "wording": "Loughaunoocary"
+            }
+        ],
+        "categories": [
+            {
+                "nameEN": "lake or lakes"
+            }
+        ]
+    }
+]

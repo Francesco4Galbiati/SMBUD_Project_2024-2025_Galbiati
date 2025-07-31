@@ -1,0 +1,92 @@
+db.logainm.aggregate([
+	{
+		$unwind: "$categories"
+	},
+	{
+		$match: {
+			"categories.id": "SR",
+			"includedIn.category.id": {
+				$in: ["B", "CTH"]
+			}
+		}
+	},
+	{
+		$project: {
+			id: "$id",
+			county: {
+				$filter: {
+					input: "$includedIn",
+					as: "place",
+					cond: {
+						$eq: ["$$place.category.id", "CON"]
+					}
+				}
+			},
+			city_town: {
+				$filter: {
+					input: "$includedIn",
+					as: "place",
+					cond: {
+						$or: [
+							{
+								$eq: ["$$place.category.id", "B"]
+							},
+							{
+								$eq: ["$$place.category.id", "CTH"]
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		$unwind: "$county"
+	},
+	{
+		$unwind: "$city_town"
+	},
+	{
+		$group: {
+			_id: {
+				county: {
+					nameGA: "$county.nameGA",
+					nameEN: "$county.nameEN"
+				},
+				city_town: {
+					nameGA: "$city_town.nameGA",
+					nameEN: "$city_town.nameEN"
+				}
+			},
+			count: {
+				$sum: 1
+			}
+		}
+	},
+	{
+		$sort: {
+			"count": -1
+		}
+	},
+	{
+		$group: {
+			_id: "$_id.county",
+			city_town: {
+				$first: "$$ROOT"
+			}
+		}
+	},
+	{
+		$project: {
+			_id: 0,
+			county: "$_id",
+			city_town: "$city_town._id.city_town",
+			count: "$city_town.count"
+		}
+	},
+	{
+		$sort: {
+			"county.nameEN": 1
+		}
+	}
+])

@@ -1,0 +1,89 @@
+db.logainm.aggregate([
+	{
+		$unwind: "$bornHere"
+	},
+	{
+		$project: {
+			person: "$bornHere.title",
+			first_word: {
+				$first: {
+					$split: [
+						"$bornHere.title",
+						" "
+					]
+				}
+			},
+			surname: {
+				$first: {
+					$split: [
+						"$bornHere.title",
+						","
+					]
+				}
+			}
+		}
+	},
+	{
+		$match: {
+			"first_word": {
+				$in: ["MAC", "NÍ", "Ó", "UÍ", "DE", "NIC", "MHIC"]
+			}
+		}
+	},
+	{
+		$group: {
+			_id: {
+				prefix: "$first_word",
+				surname: "$surname"
+			},
+			count: {
+				$sum: 1
+			}
+		}
+	},
+	{
+		$sort: {
+			"count": -1
+		}
+	},
+	{
+		$group: {
+			_id: "$_id.prefix",
+			count: {
+				$sum: "$count"
+			},
+			common_surnames: {
+				$push: {
+					surname: "$_id.surname",
+					count: "$count"
+				}
+			}
+		}
+	},
+	{
+		$project: {
+			_id: 0,
+			prefix: "$_id",
+			count: 1,
+			common_surnames: {
+				$firstN: {
+					input: {
+						$filter: {
+							input: "$common_surnames",
+							as: "surname",
+							cond: {
+								$gt: ["$$surname.count", 1]
+							}
+						}
+					},
+					n: 5
+				}
+			}
+		}
+	},
+	{
+		$sort: {
+			"count": -1
+		}
+	}
+])

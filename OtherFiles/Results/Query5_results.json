@@ -1,0 +1,146 @@
+[
+    {
+        "id": 21027,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Buaile na Nollag"
+            },
+            {
+                "language": "en",
+                "wording": "Boleynanollag"
+            }
+        ],
+        "numFeatured": 31
+    },
+    {
+        "id": 17542,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Inis Mac Neasáin"
+            },
+            {
+                "language": "en",
+                "wording": "Ireland's Eye"
+            }
+        ],
+        "numFeatured": 14
+    },
+    {
+        "id": 48039,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Sceichín an Rince"
+            },
+            {
+                "language": "en",
+                "wording": "Skeheenaranky"
+            }
+        ],
+        "numFeatured": 13
+    },
+    {
+        "id": 22578,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "An Blascaod Mór"
+            },
+            {
+                "language": "en",
+                "wording": "Great Blasket Island"
+            }
+        ],
+        "numFeatured": 13
+    },
+    {
+        "id": 10381,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Cnoc an Dreoilín"
+            },
+            {
+                "language": "en",
+                "wording": "Knockadroleen"
+            }
+        ],
+        "numFeatured": 12
+    },
+    {
+        "id": 1385574,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Corcaigh"
+            },
+            {
+                "language": "en",
+                "wording": "Cork"
+            }
+        ],
+        "numFeatured": 10
+    },
+    {
+        "id": 1166662,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "An Scoil"
+            },
+            {
+                "language": "en",
+                "wording": "Skull"
+            },
+            {
+                "language": "en",
+                "wording": "Schull"
+            }
+        ],
+        "numFeatured": 10
+    },
+    {
+        "id": 16662,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Bré"
+            },
+            {
+                "language": "en",
+                "wording": "Bray"
+            }
+        ],
+        "numFeatured": 10
+    },
+    {
+        "id": 16148,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Ailt an tSneachta"
+            },
+            {
+                "language": "en",
+                "wording": "Altatraght"
+            }
+        ],
+        "numFeatured": 9
+    },
+    {
+        "id": 40582,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Mullach na Cásca"
+            },
+            {
+                "language": "en",
+                "wording": "Mullanacask"
+            }
+        ],
+        "numFeatured": 9
+    }
+]

@@ -1,0 +1,68 @@
+[
+    {
+        "northmostPoint": [
+            {
+                "id": 14546,
+                "name": [
+                    "Inis Trá Tholl",
+                    "Inishtrahull"
+                ],
+                "coordinates": [
+                    {
+                        "square": "C",
+                        "easting": 48466,
+                        "northing": 65341
+                    }
+                ]
+            }
+        ],
+        "westmostPoint": [
+            {
+                "id": 1394425,
+                "name": [
+                    "An Feo Láir",
+                    "Foze Rock Middle"
+                ],
+                "coordinates": [
+                    {
+                        "square": "V",
+                        "easting": 15332,
+                        "northing": 89121
+                    }
+                ]
+            }
+        ],
+        "southmostPoint": [
+            {
+                "id": 1165639,
+                "name": [
+                    "Carraig Aonair",
+                    "Fastnet Rock"
+                ],
+                "coordinates": [
+                    {
+                        "square": "V",
+                        "easting": 88035,
+                        "northing": 15946
+                    }
+                ]
+            }
+        ],
+        "eastmostPoint": [
+            {
+                "id": 1411807,
+                "name": [
+                    "Port an Bhogaigh",
+                    "Portavogie"
+                ],
+                "coordinates": [
+                    {
+                        "square": "J",
+                        "easting": 66070,
+                        "northing": 58990
+                    }
+                ]
+            }
+        ]
+    }
+]

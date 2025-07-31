@@ -1,0 +1,1338 @@
+[
+    {
+        "id": 6159,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Cathair an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Caheraphuca"
+            }
+        ],
+        "county": {
+            "nameGA": "An Clár",
+            "nameEN": "Clare"
+        }
+    },
+    {
+        "id": 6921,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Poll an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Poulaphuca"
+            }
+        ],
+        "county": {
+            "nameGA": "An Clár",
+            "nameEN": "Clare"
+        }
+    },
+    {
+        "id": 16713,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Baile an Phúcaigh Beag"
+            },
+            {
+                "language": "en",
+                "wording": "Folkstown Little"
+            }
+        ],
+        "county": {
+            "nameGA": "Baile Átha Cliath",
+            "nameEN": "Dublin"
+        }
+    },
+    {
+        "id": 1408234,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Lána Chaisleán an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Pucks Castle Lane"
+            }
+        ],
+        "county": {
+            "nameGA": "Baile Átha Cliath",
+            "nameEN": "Dublin"
+        }
+    },
+    {
+        "id": 56008,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Baile Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Puckstown"
+            }
+        ],
+        "county": {
+            "nameGA": "Baile Átha Cliath",
+            "nameEN": "Dublin"
+        }
+    },
+    {
+        "id": 1391220,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Baile an Phúcaigh Beag"
+            },
+            {
+                "language": "en",
+                "wording": "Folkstown Little"
+            }
+        ],
+        "county": {
+            "nameGA": "Baile Átha Cliath",
+            "nameEN": "Dublin"
+        }
+    },
+    {
+        "id": 1392947,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Lána Bhaile an Phúcaigh Beag"
+            },
+            {
+                "language": "en",
+                "wording": "Folkstown Little Lane"
+            }
+        ],
+        "county": {
+            "nameGA": "Baile Átha Cliath",
+            "nameEN": "Dublin"
+        }
+    },
+    {
+        "id": 1391219,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Baile an Phúcaigh"
+            },
+            {
+                "language": "en",
+                "wording": "Folkstown Great"
+            }
+        ],
+        "county": {
+            "nameGA": "Baile Átha Cliath",
+            "nameEN": "Dublin"
+        }
+    },
+    {
+        "id": 137256,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Caisleán an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Puck's Castle"
+            }
+        ],
+        "county": {
+            "nameGA": "Baile Átha Cliath",
+            "nameEN": "Dublin"
+        }
+    },
+    {
+        "id": 16712,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Cluain Ard nó Baile an Phúcaigh"
+            },
+            {
+                "language": "en",
+                "wording": "Clonard or Folkstown Great"
+            }
+        ],
+        "county": {
+            "nameGA": "Baile Átha Cliath",
+            "nameEN": "Dublin"
+        }
+    },
+    {
+        "id": 3600,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Inse an Phúcaigh"
+            },
+            {
+                "language": "en",
+                "wording": "Inch or Inchaphuca"
+            }
+        ],
+        "county": {
+            "nameGA": "Ceatharlach",
+            "nameEN": "Carlow"
+        }
+    },
+    {
+        "id": 1419660,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Cnoc an Phúca"
+            }
+        ],
+        "county": {
+            "nameGA": "Ciarraí",
+            "nameEN": "Kerry"
+        }
+    },
+    {
+        "id": 1419950,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Lios an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Lissaphuca"
+            }
+        ],
+        "county": {
+            "nameGA": "Ciarraí",
+            "nameEN": "Kerry"
+        }
+    },
+    {
+        "id": 1411938,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Lios an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Beaufort"
+            }
+        ],
+        "county": {
+            "nameGA": "Ciarraí",
+            "nameEN": "Kerry"
+        }
+    },
+    {
+        "id": 1403454,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Lána an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Pooky's Lane"
+            }
+        ],
+        "county": {
+            "nameGA": "Ciarraí",
+            "nameEN": "Kerry"
+        }
+    },
+    {
+        "id": 22652,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Ceathrúin an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Carhoonaphuca"
+            }
+        ],
+        "county": {
+            "nameGA": "Ciarraí",
+            "nameEN": "Kerry"
+        }
+    },
+    {
+        "id": 23237,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Moing an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Muingaphuca"
+            }
+        ],
+        "county": {
+            "nameGA": "Ciarraí",
+            "nameEN": "Kerry"
+        }
+    },
+    {
+        "id": 23371,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Lios an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Beaufort"
+            }
+        ],
+        "county": {
+            "nameGA": "Ciarraí",
+            "nameEN": "Kerry"
+        }
+    },
+    {
+        "id": 23659,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Ráth an Phúcaigh Thoir"
+            },
+            {
+                "language": "en",
+                "wording": "Rathpoge East"
+            }
+        ],
+        "county": {
+            "nameGA": "Ciarraí",
+            "nameEN": "Kerry"
+        }
+    },
+    {
+        "id": 23660,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Ráth an Phúcaigh Thiar"
+            },
+            {
+                "language": "en",
+                "wording": "Rathpoge West"
+            }
+        ],
+        "county": {
+            "nameGA": "Ciarraí",
+            "nameEN": "Kerry"
+        }
+    },
+    {
+        "id": 24499,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Clais an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Clashaphuca"
+            }
+        ],
+        "county": {
+            "nameGA": "Ciarraí",
+            "nameEN": "Kerry"
+        }
+    },
+    {
+        "id": 1394672,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Lios an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Lissaphuca"
+            }
+        ],
+        "county": {
+            "nameGA": "Ciarraí",
+            "nameEN": "Kerry"
+        }
+    },
+    {
+        "id": 1394341,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Gleann na bPúcaí"
+            },
+            {
+                "language": "en",
+                "wording": "Fairy Glen"
+            }
+        ],
+        "county": {
+            "nameGA": "Ciarraí",
+            "nameEN": "Kerry"
+        }
+    },
+    {
+        "id": 1394642,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Lios Gort an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Lisgortaphuca"
+            }
+        ],
+        "county": {
+            "nameGA": "Ciarraí",
+            "nameEN": "Kerry"
+        }
+    },
+    {
+        "id": 1394121,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Clochán an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Cloghaunaphuca"
+            }
+        ],
+        "county": {
+            "nameGA": "Ciarraí",
+            "nameEN": "Kerry"
+        }
+    },
+    {
+        "id": 1394031,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Carraig an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Carrigaphuca"
+            }
+        ],
+        "county": {
+            "nameGA": "Ciarraí",
+            "nameEN": "Kerry"
+        }
+    },
+    {
+        "id": 1418129,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Carraig an Phúca"
+            }
+        ],
+        "county": {
+            "nameGA": "Ciarraí",
+            "nameEN": "Kerry"
+        }
+    },
+    {
+        "id": 1419350,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Leaca Chomar an Phúca"
+            }
+        ],
+        "county": {
+            "nameGA": "Ciarraí",
+            "nameEN": "Kerry"
+        }
+    },
+    {
+        "id": 1419351,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Páircín Chomar an Phúca"
+            }
+        ],
+        "county": {
+            "nameGA": "Ciarraí",
+            "nameEN": "Kerry"
+        }
+    },
+    {
+        "id": 26758,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Ráth an Phúcaigh"
+            },
+            {
+                "language": "en",
+                "wording": "Foulksrath"
+            }
+        ],
+        "county": {
+            "nameGA": "Cill Chainnigh",
+            "nameEN": "Kilkenny"
+        }
+    },
+    {
+        "id": 26982,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Cloch an Phúcaigh"
+            },
+            {
+                "language": "en",
+                "wording": "Cloghpook"
+            }
+        ],
+        "county": {
+            "nameGA": "Cill Chainnigh",
+            "nameEN": "Kilkenny"
+        }
+    },
+    {
+        "id": 27009,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Baile an Phúcaigh"
+            },
+            {
+                "language": "en",
+                "wording": "Foulkstown"
+            }
+        ],
+        "county": {
+            "nameGA": "Cill Chainnigh",
+            "nameEN": "Kilkenny"
+        }
+    },
+    {
+        "id": 27461,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Cúirt an Phúcaigh"
+            },
+            {
+                "language": "en",
+                "wording": "Foulkscourt"
+            }
+        ],
+        "county": {
+            "nameGA": "Cill Chainnigh",
+            "nameEN": "Kilkenny"
+        }
+    },
+    {
+        "id": 26165,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Ráth an Phúcaigh"
+            },
+            {
+                "language": "en",
+                "wording": "Foulksrath"
+            }
+        ],
+        "county": {
+            "nameGA": "Cill Chainnigh",
+            "nameEN": "Kilkenny"
+        }
+    },
+    {
+        "id": 25018,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Cnoc an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Knockaphuca"
+            }
+        ],
+        "county": {
+            "nameGA": "Cill Dara",
+            "nameEN": "Kildare"
+        }
+    },
+    {
+        "id": 25719,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Baile an Phléimeannaigh Theas nó Tóin an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Flemingtown South or Tonaphuca"
+            }
+        ],
+        "county": {
+            "nameGA": "Cill Dara",
+            "nameEN": "Kildare"
+        }
+    },
+    {
+        "id": 55309,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Poll an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Pollaphuca"
+            }
+        ],
+        "county": {
+            "nameGA": "Cill Mhantáin",
+            "nameEN": "Wicklow"
+        }
+    },
+    {
+        "id": 113024,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Poll an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Pollaphuca"
+            }
+        ],
+        "county": {
+            "nameGA": "Cill Mhantáin",
+            "nameEN": "Wicklow"
+        }
+    },
+    {
+        "id": 1411497,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Droichead Pholl an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Pollaphuca Bridge"
+            }
+        ],
+        "county": {
+            "nameGA": "Cill Mhantáin",
+            "nameEN": "Wicklow"
+        }
+    },
+    {
+        "id": 12966,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Gleann an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Glanaphuca"
+            }
+        ],
+        "county": {
+            "nameGA": "Corcaigh",
+            "nameEN": "Cork"
+        }
+    },
+    {
+        "id": 116008,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Abhainn Áth an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Ahaphuca River"
+            }
+        ],
+        "county": {
+            "nameGA": "Corcaigh",
+            "nameEN": "Cork"
+        }
+    },
+    {
+        "id": 1388872,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Carraig an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Carrigaphooca"
+            }
+        ],
+        "county": {
+            "nameGA": "Corcaigh",
+            "nameEN": "Cork"
+        }
+    },
+    {
+        "id": 1410699,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Uaimh Chaisleán an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Castlepook Cave"
+            }
+        ],
+        "county": {
+            "nameGA": "Corcaigh",
+            "nameEN": "Cork"
+        }
+    },
+    {
+        "id": 8069,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Lios an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Lissaphooca"
+            }
+        ],
+        "county": {
+            "nameGA": "Corcaigh",
+            "nameEN": "Cork"
+        }
+    },
+    {
+        "id": 11464,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Carraig an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Carrigaphooca"
+            }
+        ],
+        "county": {
+            "nameGA": "Corcaigh",
+            "nameEN": "Cork"
+        }
+    },
+    {
+        "id": 12074,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Caisleán an Phúca Thuaidh"
+            },
+            {
+                "language": "en",
+                "wording": "Castlepook North"
+            }
+        ],
+        "county": {
+            "nameGA": "Corcaigh",
+            "nameEN": "Cork"
+        }
+    },
+    {
+        "id": 12075,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Caisleán an Phúca Theas"
+            },
+            {
+                "language": "en",
+                "wording": "Castlepook South"
+            }
+        ],
+        "county": {
+            "nameGA": "Corcaigh",
+            "nameEN": "Cork"
+        }
+    },
+    {
+        "id": 12339,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Gleann an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Glenaphuca"
+            }
+        ],
+        "county": {
+            "nameGA": "Corcaigh",
+            "nameEN": "Cork"
+        }
+    },
+    {
+        "id": 1436176,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Cuas an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Coosaphuca"
+            }
+        ],
+        "county": {
+            "nameGA": "Corcaigh",
+            "nameEN": "Cork"
+        }
+    },
+    {
+        "id": 1397401,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Aill an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Ailleaphuca"
+            }
+        ],
+        "county": {
+            "nameGA": "Gaillimh",
+            "nameEN": "Galway"
+        }
+    },
+    {
+        "id": 1397713,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Clochán an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Cloghanaphuca"
+            }
+        ],
+        "county": {
+            "nameGA": "Gaillimh",
+            "nameEN": "Galway"
+        }
+    },
+    {
+        "id": 1398327,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Loch an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Lough Aphuca"
+            }
+        ],
+        "county": {
+            "nameGA": "Gaillimh",
+            "nameEN": "Galway"
+        }
+    },
+    {
+        "id": 21627,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Poll an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Pollaphuca"
+            }
+        ],
+        "county": {
+            "nameGA": "Gaillimh",
+            "nameEN": "Galway"
+        }
+    },
+    {
+        "id": 21453,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Poll an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Pollaphuca"
+            }
+        ],
+        "county": {
+            "nameGA": "Gaillimh",
+            "nameEN": "Galway"
+        }
+    },
+    {
+        "id": 21311,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Cathair Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Caherphuca"
+            }
+        ],
+        "county": {
+            "nameGA": "Gaillimh",
+            "nameEN": "Galway"
+        }
+    },
+    {
+        "id": 20033,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Lios an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Lissaphuca"
+            }
+        ],
+        "county": {
+            "nameGA": "Gaillimh",
+            "nameEN": "Galway"
+        }
+    },
+    {
+        "id": 1419147,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Cathair an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Caheraphuca"
+            }
+        ],
+        "county": {
+            "nameGA": "Gaillimh",
+            "nameEN": "Galway"
+        }
+    },
+    {
+        "id": 28173,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Cloch an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Clopook"
+            }
+        ],
+        "county": {
+            "nameGA": "Laois",
+            "nameEN": "Laois"
+        }
+    },
+    {
+        "id": 30798,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Garraí an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Mountrussell"
+            }
+        ],
+        "county": {
+            "nameGA": "Luimneach",
+            "nameEN": "Limerick"
+        }
+    },
+    {
+        "id": 1167304,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Abhainn Áth an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Ahaphuca River"
+            }
+        ],
+        "county": {
+            "nameGA": "Luimneach",
+            "nameEN": "Limerick"
+        }
+    },
+    {
+        "id": 1415397,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Carraig an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Carrigaphuca"
+            }
+        ],
+        "county": {
+            "nameGA": "Luimneach",
+            "nameEN": "Limerick"
+        }
+    },
+    {
+        "id": 1415533,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Lios Gharraí an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Garrynphuca Fort"
+            }
+        ],
+        "county": {
+            "nameGA": "Luimneach",
+            "nameEN": "Limerick"
+        }
+    },
+    {
+        "id": 33597,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Poll an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Puckstown"
+            }
+        ],
+        "county": {
+            "nameGA": "Lú",
+            "nameEN": "Louth"
+        }
+    },
+    {
+        "id": 114355,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Abhainn Pholl an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Owenpollaphuca"
+            }
+        ],
+        "county": {
+            "nameGA": "Maigh Eo",
+            "nameEN": "Mayo"
+        }
+    },
+    {
+        "id": 114281,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Lios an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Lissaphuca"
+            }
+        ],
+        "county": {
+            "nameGA": "Maigh Eo",
+            "nameEN": "Mayo"
+        }
+    },
+    {
+        "id": 1403864,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Poll an Phúca"
+            }
+        ],
+        "county": {
+            "nameGA": "Port Láirge",
+            "nameEN": "Waterford"
+        }
+    },
+    {
+        "id": 49488,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Rinn an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Ringaphuca"
+            }
+        ],
+        "county": {
+            "nameGA": "Port Láirge",
+            "nameEN": "Waterford"
+        }
+    },
+    {
+        "id": 49075,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Gleann an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Glennaphuca"
+            }
+        ],
+        "county": {
+            "nameGA": "Port Láirge",
+            "nameEN": "Waterford"
+        }
+    },
+    {
+        "id": 1420617,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Bóthar Pholl an Phúca"
+            }
+        ],
+        "county": {
+            "nameGA": "Port Láirge",
+            "nameEN": "Waterford"
+        }
+    },
+    {
+        "id": 1420688,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Clais an Phúca"
+            },
+            {
+                "language": "ga",
+                "wording": "An Gleann"
+            },
+            {
+                "language": "ga",
+                "wording": "Poll an Phúca"
+            }
+        ],
+        "county": {
+            "nameGA": "Port Láirge",
+            "nameEN": "Waterford"
+        }
+    },
+    {
+        "id": 1420696,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Bóthar Pholl an Phúca"
+            }
+        ],
+        "county": {
+            "nameGA": "Port Láirge",
+            "nameEN": "Waterford"
+        }
+    },
+    {
+        "id": 1420699,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Bóthar Pholl an Phúca"
+            }
+        ],
+        "county": {
+            "nameGA": "Port Láirge",
+            "nameEN": "Waterford"
+        }
+    },
+    {
+        "id": 1421027,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Sruth Poll an Phúca"
+            }
+        ],
+        "county": {
+            "nameGA": "Port Láirge",
+            "nameEN": "Waterford"
+        }
+    },
+    {
+        "id": 1421028,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Poll an Phúca"
+            },
+            {
+                "language": "ga",
+                "wording": "Gleann Pholl an Phúca"
+            },
+            {
+                "language": "ga",
+                "wording": "An Gleann"
+            },
+            {
+                "language": "ga",
+                "wording": "Clais an Phúca"
+            }
+        ],
+        "county": {
+            "nameGA": "Port Láirge",
+            "nameEN": "Waterford"
+        }
+    },
+    {
+        "id": 1421403,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Tor an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Turraphuca"
+            }
+        ],
+        "county": {
+            "nameGA": "Port Láirge",
+            "nameEN": "Waterford"
+        }
+    },
+    {
+        "id": 1421672,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Poll an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Poll an Phúca"
+            }
+        ],
+        "county": {
+            "nameGA": "Port Láirge",
+            "nameEN": "Waterford"
+        }
+    },
+    {
+        "id": 1421944,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Poll an Phúca"
+            }
+        ],
+        "county": {
+            "nameGA": "Port Láirge",
+            "nameEN": "Waterford"
+        }
+    },
+    {
+        "id": 67204,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Gleann an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Glenaphnea"
+            }
+        ],
+        "county": {
+            "nameGA": "Tiobraid Árann",
+            "nameEN": "Tipperary"
+        }
+    },
+    {
+        "id": 48877,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Goirtín an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Gorteenaphooka"
+            }
+        ],
+        "county": {
+            "nameGA": "Tiobraid Árann",
+            "nameEN": "Tipperary"
+        }
+    },
+    {
+        "id": 1436889,
+        "placenames": [
+            {
+                "language": "ga",
+                "wording": "Clais an Phúca"
+            },
+            {
+                "language": "en",
+                "wording": "Clashaphooca"
+            },
+            {
+                "language": "en",
+                "wording": "Clashaphooca House"
+            }
+        ],
+        "county": {
+            "nameGA": "Tiobraid Árann",
+            "nameEN": "Tipperary"
+        }
+    }
+]

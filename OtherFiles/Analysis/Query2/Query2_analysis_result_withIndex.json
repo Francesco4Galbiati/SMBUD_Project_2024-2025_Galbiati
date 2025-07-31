@@ -1,0 +1,391 @@
+{
+    "executionSuccess": true,
+    "nReturned": 53,
+    "executionTimeMillis": 31,
+    "totalKeysExamined": 1862,
+    "totalDocsExamined": 1862,
+    "executionStages": {
+        "isCached": false,
+        "stage": "PROJECTION_DEFAULT",
+        "nReturned": 53,
+        "executionTimeMillisEstimate": 10,
+        "works": 1864,
+        "advanced": 53,
+        "needTime": 1809,
+        "needYield": 0,
+        "saveState": 2,
+        "restoreState": 2,
+        "isEOF": 1,
+        "transformBy": {
+            "_id": 0,
+            "id": 1,
+            "placenames.language": 1,
+            "placenames.wording": 1,
+            "categories.nameEN": 1
+        },
+        "inputStage": {
+            "stage": "FETCH",
+            "filter": {
+                "glossary.headword": {
+                    "$eq": "loch"
+                }
+            },
+            "nReturned": 53,
+            "executionTimeMillisEstimate": 10,
+            "works": 1864,
+            "advanced": 53,
+            "needTime": 1809,
+            "needYield": 0,
+            "saveState": 2,
+            "restoreState": 2,
+            "isEOF": 1,
+            "docsExamined": 1862,
+            "alreadyHasObj": 0,
+            "inputStage": {
+                "stage": "IXSCAN",
+                "nReturned": 1862,
+                "executionTimeMillisEstimate": 0,
+                "works": 1863,
+                "advanced": 1862,
+                "needTime": 0,
+                "needYield": 0,
+                "saveState": 2,
+                "restoreState": 2,
+                "isEOF": 1,
+                "keyPattern": {
+                    "includes.id": 1
+                },
+                "indexName": "includes.id_1",
+                "isMultiKey": true,
+                "multiKeyPaths": {
+                    "includes.id": [
+                        "includes"
+                    ]
+                },
+                "isUnique": false,
+                "isSparse": false,
+                "isPartial": false,
+                "indexVersion": 2,
+                "direction": "forward",
+                "indexBounds": {
+                    "includes.id": [
+                        "[\"L\", \"L\"]"
+                    ]
+                },
+                "keysExamined": 1862,
+                "seeks": 1,
+                "dupsTested": 1862,
+                "dupsDropped": 0
+            }
+        }
+    },
+    "allPlansExecution": [
+        {
+            "nReturned": 53,
+            "executionTimeMillisEstimate": 10,
+            "totalKeysExamined": 1862,
+            "totalDocsExamined": 1862,
+            "score": 2.028648738593666,
+            "executionStages": {
+                "isCached": false,
+                "stage": "PROJECTION_DEFAULT",
+                "nReturned": 53,
+                "executionTimeMillisEstimate": 10,
+                "works": 1863,
+                "advanced": 53,
+                "needTime": 1809,
+                "needYield": 0,
+                "saveState": 2,
+                "restoreState": 2,
+                "isEOF": 1,
+                "transformBy": {
+                    "_id": 0,
+                    "id": 1,
+                    "placenames.language": 1,
+                    "placenames.wording": 1,
+                    "categories.nameEN": 1
+                },
+                "inputStage": {
+                    "stage": "FETCH",
+                    "filter": {
+                        "glossary.headword": {
+                            "$eq": "loch"
+                        }
+                    },
+                    "nReturned": 53,
+                    "executionTimeMillisEstimate": 10,
+                    "works": 1863,
+                    "advanced": 53,
+                    "needTime": 1809,
+                    "needYield": 0,
+                    "saveState": 2,
+                    "restoreState": 2,
+                    "isEOF": 1,
+                    "docsExamined": 1862,
+                    "alreadyHasObj": 0,
+                    "inputStage": {
+                        "stage": "IXSCAN",
+                        "nReturned": 1862,
+                        "executionTimeMillisEstimate": 0,
+                        "works": 1863,
+                        "advanced": 1862,
+                        "needTime": 0,
+                        "needYield": 0,
+                        "saveState": 2,
+                        "restoreState": 2,
+                        "isEOF": 1,
+                        "keyPattern": {
+                            "includes.id": 1
+                        },
+                        "indexName": "includes.id_1",
+                        "isMultiKey": true,
+                        "multiKeyPaths": {
+                            "includes.id": [
+                                "includes"
+                            ]
+                        },
+                        "isUnique": false,
+                        "isSparse": false,
+                        "isPartial": false,
+                        "indexVersion": 2,
+                        "direction": "forward",
+                        "indexBounds": {
+                            "includes.id": [
+                                "[\"L\", \"L\"]"
+                            ]
+                        },
+                        "keysExamined": 1862,
+                        "seeks": 1,
+                        "dupsTested": 1862,
+                        "dupsDropped": 0
+                    }
+                }
+            }
+        },
+        {
+            "nReturned": 53,
+            "executionTimeMillisEstimate": 5,
+            "totalKeysExamined": 1863,
+            "totalDocsExamined": 1863,
+            "score": 1.028648738593666,
+            "executionStages": {
+                "isCached": false,
+                "stage": "PROJECTION_DEFAULT",
+                "nReturned": 53,
+                "executionTimeMillisEstimate": 5,
+                "works": 1863,
+                "advanced": 53,
+                "needTime": 1810,
+                "needYield": 0,
+                "saveState": 3,
+                "restoreState": 2,
+                "isEOF": 0,
+                "transformBy": {
+                    "_id": 0,
+                    "id": 1,
+                    "placenames.language": 1,
+                    "placenames.wording": 1,
+                    "categories.nameEN": 1
+                },
+                "inputStage": {
+                    "stage": "FETCH",
+                    "filter": {
+                        "includes.id": {
+                            "$eq": "L"
+                        }
+                    },
+                    "nReturned": 53,
+                    "executionTimeMillisEstimate": 5,
+                    "works": 1863,
+                    "advanced": 53,
+                    "needTime": 1810,
+                    "needYield": 0,
+                    "saveState": 3,
+                    "restoreState": 2,
+                    "isEOF": 0,
+                    "docsExamined": 1863,
+                    "alreadyHasObj": 0,
+                    "inputStage": {
+                        "stage": "IXSCAN",
+                        "nReturned": 1863,
+                        "executionTimeMillisEstimate": 5,
+                        "works": 1863,
+                        "advanced": 1863,
+                        "needTime": 0,
+                        "needYield": 0,
+                        "saveState": 3,
+                        "restoreState": 2,
+                        "isEOF": 0,
+                        "keyPattern": {
+                            "glossary.headword": 1
+                        },
+                        "indexName": "glossary.headword_1",
+                        "isMultiKey": true,
+                        "multiKeyPaths": {
+                            "glossary.headword": [
+                                "glossary"
+                            ]
+                        },
+                        "isUnique": false,
+                        "isSparse": false,
+                        "isPartial": false,
+                        "indexVersion": 2,
+                        "direction": "forward",
+                        "indexBounds": {
+                            "glossary.headword": [
+                                "[\"loch\", \"loch\"]"
+                            ]
+                        },
+                        "keysExamined": 1863,
+                        "seeks": 1,
+                        "dupsTested": 1863,
+                        "dupsDropped": 0
+                    }
+                }
+            }
+        },
+        {
+            "nReturned": 45,
+            "executionTimeMillisEstimate": 11,
+            "totalKeysExamined": 1863,
+            "totalDocsExamined": 45,
+            "score": 1.0242545893719808,
+            "executionStages": {
+                "isCached": false,
+                "stage": "PROJECTION_DEFAULT",
+                "nReturned": 45,
+                "executionTimeMillisEstimate": 11,
+                "works": 1863,
+                "advanced": 45,
+                "needTime": 1818,
+                "needYield": 0,
+                "saveState": 3,
+                "restoreState": 2,
+                "isEOF": 0,
+                "transformBy": {
+                    "_id": 0,
+                    "id": 1,
+                    "placenames.language": 1,
+                    "placenames.wording": 1,
+                    "categories.nameEN": 1
+                },
+                "inputStage": {
+                    "stage": "FETCH",
+                    "filter": {
+                        "$and": [
+                            {
+                                "includes.id": {
+                                    "$eq": "L"
+                                }
+                            },
+                            {
+                                "glossary.headword": {
+                                    "$eq": "loch"
+                                }
+                            }
+                        ]
+                    },
+                    "nReturned": 45,
+                    "executionTimeMillisEstimate": 11,
+                    "works": 1863,
+                    "advanced": 45,
+                    "needTime": 1818,
+                    "needYield": 0,
+                    "saveState": 3,
+                    "restoreState": 2,
+                    "isEOF": 0,
+                    "docsExamined": 45,
+                    "alreadyHasObj": 0,
+                    "inputStage": {
+                        "stage": "AND_SORTED",
+                        "nReturned": 45,
+                        "executionTimeMillisEstimate": 11,
+                        "works": 1863,
+                        "advanced": 45,
+                        "needTime": 1818,
+                        "needYield": 0,
+                        "saveState": 3,
+                        "restoreState": 2,
+                        "isEOF": 0,
+                        "failedAnd_0": 135,
+                        "failedAnd_1": 100,
+                        "inputStages": [
+                            {
+                                "stage": "IXSCAN",
+                                "nReturned": 1573,
+                                "executionTimeMillisEstimate": 11,
+                                "works": 1573,
+                                "advanced": 1573,
+                                "needTime": 0,
+                                "needYield": 0,
+                                "saveState": 3,
+                                "restoreState": 2,
+                                "isEOF": 0,
+                                "keyPattern": {
+                                    "includes.id": 1
+                                },
+                                "indexName": "includes.id_1",
+                                "isMultiKey": true,
+                                "multiKeyPaths": {
+                                    "includes.id": [
+                                        "includes"
+                                    ]
+                                },
+                                "isUnique": false,
+                                "isSparse": false,
+                                "isPartial": false,
+                                "indexVersion": 2,
+                                "direction": "forward",
+                                "indexBounds": {
+                                    "includes.id": [
+                                        "[\"L\", \"L\"]"
+                                    ]
+                                },
+                                "keysExamined": 1573,
+                                "seeks": 1,
+                                "dupsTested": 1573,
+                                "dupsDropped": 0
+                            },
+                            {
+                                "stage": "IXSCAN",
+                                "nReturned": 290,
+                                "executionTimeMillisEstimate": 0,
+                                "works": 290,
+                                "advanced": 290,
+                                "needTime": 0,
+                                "needYield": 0,
+                                "saveState": 3,
+                                "restoreState": 2,
+                                "isEOF": 0,
+                                "keyPattern": {
+                                    "glossary.headword": 1
+                                },
+                                "indexName": "glossary.headword_1",
+                                "isMultiKey": true,
+                                "multiKeyPaths": {
+                                    "glossary.headword": [
+                                        "glossary"
+                                    ]
+                                },
+                                "isUnique": false,
+                                "isSparse": false,
+                                "isPartial": false,
+                                "indexVersion": 2,
+                                "direction": "forward",
+                                "indexBounds": {
+                                    "glossary.headword": [
+                                        "[\"loch\", \"loch\"]"
+                                    ]
+                                },
+                                "keysExamined": 290,
+                                "seeks": 1,
+                                "dupsTested": 290,
+                                "dupsDropped": 0
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

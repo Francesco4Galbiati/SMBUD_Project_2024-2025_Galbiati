@@ -1,0 +1,72 @@
+[
+    {
+        "_id": {
+            "headword": "baile",
+            "translation": "townland, town, homestead"
+        },
+        "count": 9538
+    },
+    {
+        "_id": {
+            "headword": "cill",
+            "translation": "church"
+        },
+        "count": 3273
+    },
+    {
+        "_id": {
+            "headword": "bóthar",
+            "translation": "road"
+        },
+        "count": 2760
+    },
+    {
+        "_id": {
+            "headword": "mór",
+            "translation": "great, big"
+        },
+        "count": 2654
+    },
+    {
+        "_id": {
+            "headword": "Ó",
+            "translation": ""
+        },
+        "count": 2393
+    },
+    {
+        "_id": {
+            "headword": "cnoc",
+            "translation": "hill"
+        },
+        "count": 2363
+    },
+    {
+        "_id": {
+            "headword": "loch",
+            "translation": "lake; inlet"
+        },
+        "count": 2094
+    },
+    {
+        "_id": {
+            "headword": "beag",
+            "translation": "small"
+        },
+        "count": 1651
+    },
+    {
+        "_id": {
+            "headword": "cluain",
+            "translation": "meadow, pasture"
+        },
+        "count": 1614
+    },
+    {
+        "_id": {
+            "headword": "droim",
+            "translation": "ridge"
+        },
+        "count": 1537
+    }
+]

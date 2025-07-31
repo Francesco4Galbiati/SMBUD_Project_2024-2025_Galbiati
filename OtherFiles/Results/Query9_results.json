@@ -1,0 +1,60 @@
+[
+    {
+        "county": {
+            "nameEN": "Waterford",
+            "nameGA": "Port Láirge"
+        },
+        "count": 67
+    },
+    {
+        "county": {
+            "nameEN": "Galway",
+            "nameGA": "Gaillimh"
+        },
+        "count": 556
+    },
+    {
+        "county": {
+            "nameEN": "Cork",
+            "nameGA": "Corcaigh"
+        },
+        "count": 159
+    },
+    {
+        "county": {
+            "nameEN": "Mayo",
+            "nameGA": "Maigh Eo"
+        },
+        "count": 266
+    },
+    {
+        "county": {
+            "nameEN": "Donegal",
+            "nameGA": "Dún na nGall"
+        },
+        "count": 589
+    },
+    {
+        "county": {
+            "nameEN": "Kerry",
+            "nameGA": "Ciarraí"
+        },
+        "count": 394
+    },
+    {
+        "county": {
+            "nameEN": "Meath",
+            "nameGA": "An Mhí"
+        },
+        "count": 14
+    }
+]
+
+
+
+
+
+
+
+
+

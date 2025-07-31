@@ -1,0 +1,13 @@
+db.logainm.find(
+	{
+		"includes.id": "L", 
+		"glossary.headword": "loch"
+	}, 
+	{
+		"_id": 0,
+        	"id": 1,
+        	"placenames.language": 1,
+        	"placenames.wording": 1,
+		"categories.nameEN": 1
+	}
+)

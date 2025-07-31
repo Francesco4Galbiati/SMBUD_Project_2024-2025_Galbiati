@@ -1,0 +1,309 @@
+{
+    "explainVersion": "1",
+    "stages": [
+        {
+            "$cursor": {
+                "queryPlanner": {
+                    "namespace": "SMBUDProject24.logainm",
+                    "parsedQuery": {
+                        "placenames.wording": {
+                            "$in": [
+                                {
+                                    "$regularExpression": {
+                                        "pattern": "Phúca",
+                                        "options": ""
+                                    }
+                                },
+                                {
+                                    "$regularExpression": {
+                                        "pattern": "Púca",
+                                        "options": ""
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "indexFilterSet": false,
+                    "queryHash": "A015B605",
+                    "planCacheKey": "80B21BDA",
+                    "optimizationTimeMillis": 1,
+                    "maxIndexedOrSolutionsReached": false,
+                    "maxIndexedAndSolutionsReached": false,
+                    "maxScansToExplodeReached": false,
+                    "prunedSimilarIndexes": false,
+                    "winningPlan": {
+                        "isCached": false,
+                        "stage": "PROJECTION_DEFAULT",
+                        "transformBy": {
+                            "county": 1,
+                            "id": 1,
+                            "includedIn": 1,
+                            "placenames.language": 1,
+                            "placenames.wording": 1,
+                            "_id": 0
+                        },
+                        "inputStage": {
+                            "stage": "FETCH",
+                            "filter": {
+                                "placenames.wording": {
+                                    "$in": [
+                                        {
+                                            "$regularExpression": {
+                                                "pattern": "Phúca",
+                                                "options": ""
+                                            }
+                                        },
+                                        {
+                                            "$regularExpression": {
+                                                "pattern": "Púca",
+                                                "options": ""
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            "inputStage": {
+                                "stage": "IXSCAN",
+                                "keyPattern": {
+                                    "placenames.wording": 1
+                                },
+                                "indexName": "placenames.wording_1",
+                                "isMultiKey": true,
+                                "multiKeyPaths": {
+                                    "placenames.wording": [
+                                        "placenames"
+                                    ]
+                                },
+                                "isUnique": false,
+                                "isSparse": false,
+                                "isPartial": false,
+                                "indexVersion": 2,
+                                "direction": "forward",
+                                "indexBounds": {
+                                    "placenames.wording": [
+                                        "[\"\", {})",
+                                        "[/Phúca/, /Phúca/]",
+                                        "[/Púca/, /Púca/]"
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    "rejectedPlans": []
+                },
+                "executionStats": {
+                    "executionSuccess": true,
+                    "nReturned": 80,
+                    "executionTimeMillis": 1910,
+                    "totalKeysExamined": 221389,
+                    "totalDocsExamined": 126691,
+                    "executionStages": {
+                        "isCached": false,
+                        "stage": "PROJECTION_DEFAULT",
+                        "nReturned": 80,
+                        "executionTimeMillisEstimate": 1869,
+                        "works": 221390,
+                        "advanced": 80,
+                        "needTime": 221309,
+                        "needYield": 0,
+                        "saveState": 117,
+                        "restoreState": 117,
+                        "isEOF": 1,
+                        "transformBy": {
+                            "county": 1,
+                            "id": 1,
+                            "includedIn": 1,
+                            "placenames.language": 1,
+                            "placenames.wording": 1,
+                            "_id": 0
+                        },
+                        "inputStage": {
+                            "stage": "FETCH",
+                            "filter": {
+                                "placenames.wording": {
+                                    "$in": [
+                                        {
+                                            "$regularExpression": {
+                                                "pattern": "Phúca",
+                                                "options": ""
+                                            }
+                                        },
+                                        {
+                                            "$regularExpression": {
+                                                "pattern": "Púca",
+                                                "options": ""
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            "nReturned": 80,
+                            "executionTimeMillisEstimate": 1864,
+                            "works": 221390,
+                            "advanced": 80,
+                            "needTime": 221309,
+                            "needYield": 0,
+                            "saveState": 117,
+                            "restoreState": 117,
+                            "isEOF": 1,
+                            "docsExamined": 126691,
+                            "alreadyHasObj": 0,
+                            "inputStage": {
+                                "stage": "IXSCAN",
+                                "nReturned": 126691,
+                                "executionTimeMillisEstimate": 693,
+                                "works": 221390,
+                                "advanced": 126691,
+                                "needTime": 94698,
+                                "needYield": 0,
+                                "saveState": 117,
+                                "restoreState": 117,
+                                "isEOF": 1,
+                                "keyPattern": {
+                                    "placenames.wording": 1
+                                },
+                                "indexName": "placenames.wording_1",
+                                "isMultiKey": true,
+                                "multiKeyPaths": {
+                                    "placenames.wording": [
+                                        "placenames"
+                                    ]
+                                },
+                                "isUnique": false,
+                                "isSparse": false,
+                                "isPartial": false,
+                                "indexVersion": 2,
+                                "direction": "forward",
+                                "indexBounds": {
+                                    "placenames.wording": [
+                                        "[\"\", {})",
+                                        "[/Phúca/, /Phúca/]",
+                                        "[/Púca/, /Púca/]"
+                                    ]
+                                },
+                                "keysExamined": 221389,
+                                "seeks": 1,
+                                "dupsTested": 221389,
+                                "dupsDropped": 94698
+                            }
+                        }
+                    }
+                }
+            },
+            "nReturned": 80,
+            "executionTimeMillisEstimate": 1901
+        },
+        {
+            "$unwind": {
+                "path": "$includedIn"
+            },
+            "nReturned": 280,
+            "executionTimeMillisEstimate": 1901
+        },
+        {
+            "$match": {
+                "includedIn.category.id": {
+                    "$eq": "CON"
+                }
+            },
+            "nReturned": 80,
+            "executionTimeMillisEstimate": 1901
+        },
+        {
+            "$project": {
+                "id": true,
+                "placenames": {
+                    "language": true,
+                    "wording": true
+                },
+                "county": {
+                    "nameGA": "$includedIn.nameGA",
+                    "nameEN": "$includedIn.nameEN"
+                },
+                "_id": false
+            },
+            "nReturned": 80,
+            "executionTimeMillisEstimate": 1901
+        },
+        {
+            "$sort": {
+                "sortKey": {
+                    "county.nameGA": 1
+                }
+            },
+            "totalDataSizeSortedBytesEstimate": 91902,
+            "usedDisk": false,
+            "spills": 0,
+            "spilledDataStorageSize": 0,
+            "nReturned": 80,
+            "executionTimeMillisEstimate": 1901
+        }
+    ],
+    "serverInfo": {
+        "host": "LAPTOP-SVPGP4FI",
+        "port": 27017,
+        "version": "8.0.1",
+        "gitVersion": "fcbe67d668fff5a370e2d87b9b1f74bc11bb7b94"
+    },
+    "serverParameters": {
+        "internalQueryFacetBufferSizeBytes": 104857600,
+        "internalQueryFacetMaxOutputDocSizeBytes": 104857600,
+        "internalLookupStageIntermediateDocumentMaxSizeBytes": 104857600,
+        "internalDocumentSourceGroupMaxMemoryBytes": 104857600,
+        "internalQueryMaxBlockingSortMemoryUsageBytes": 104857600,
+        "internalQueryProhibitBlockingMergeOnMongoS": 0,
+        "internalQueryMaxAddToSetBytes": 104857600,
+        "internalDocumentSourceSetWindowFieldsMaxMemoryBytes": 104857600,
+        "internalQueryFrameworkControl": "trySbeRestricted",
+        "internalQueryPlannerIgnoreIndexWithCollationForRegex": 1
+    },
+    "command": {
+        "aggregate": "logainm",
+        "pipeline": [
+            {
+                "$match": {
+                    "$or": [
+                        {
+                            "placenames.wording": {
+                                "$regex": "Phúca"
+                            }
+                        },
+                        {
+                            "placenames.wording": {
+                                "$regex": "Púca"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "$unwind": "$includedIn"
+            },
+            {
+                "$match": {
+                    "includedIn.category.id": "CON"
+                }
+            },
+            {
+                "$project": {
+                    "_id": 0,
+                    "id": 1,
+                    "placenames.language": 1,
+                    "placenames.wording": 1,
+                    "county": {
+                        "nameGA": "$includedIn.nameGA",
+                        "nameEN": "$includedIn.nameEN"
+                    }
+                }
+            },
+            {
+                "$sort": {
+                    "county.nameGA": 1
+                }
+            }
+        ],
+        "cursor": {},
+        "$db": "SMBUDProject24"
+    },
+    "ok": 1.0
+}

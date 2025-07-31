@@ -1,0 +1,43 @@
+db.logainm.aggregate([
+	{
+		$match: {
+			$or: [
+                		{
+                    			"placenames.wording": {
+                        			$regex: "Phúca"
+                    			}
+                		},
+                		{
+                    			"placenames.wording": {
+                        			$regex: "Púca"
+                    			}
+                		}
+            		]
+		}
+	},
+	{
+		$unwind: "$includedIn"
+	},
+	{
+		$match: {
+			"includedIn.category.id": "CON"
+		}
+	},
+	{
+		$project: {
+			_id: 0,
+			id: 1,
+			"placenames.language": 1,
+			"placenames.wording": 1,
+			county: {
+				nameGA: "$includedIn.nameGA",
+				nameEN: "$includedIn.nameEN"
+			}
+		}
+	},
+	{
+		$sort: {
+			"county.nameGA": 1
+		}
+	}
+])
