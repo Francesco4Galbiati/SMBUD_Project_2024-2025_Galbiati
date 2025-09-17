@@ -5,7 +5,7 @@ This repository contains all the files relevant to the project, including code, 
 ## The project
 The project, in its version for 1 student, consisted of choosing a publicly available dataset of at least 20000 punctual data, loading it into one of the main technologies seen during the course (Neo4j, MongoDB, ElasticSearch) and performing 10 relevant queries on the dataset. It was also possible to submit some analysis on the queries done in the project as additional work.
 
-This project uses the [Logainm.ie](https://www.logainm.ie/en/) dataset, on the topic of Irish toponymy, while the technology of choice was MongoDB. Additional work was provided using Python (the pymongo library in particular).
+This project uses the [logainm.ie](https://www.logainm.ie/en/) dataset, on the topic of Irish toponymy, while the technology of choice was MongoDB. Additional work was provided using Python (the pymongo library in particular).
 
 ## The repository
 The repository is organized as follows:
